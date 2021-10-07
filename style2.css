@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{ color: black;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+h2{ color: yellow;
+    font-size: 35px;
+    font-family: "Comic Sans MS";
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+#olAnswer{
+    margin: 0;
+    padding: 0;
+    list-style-type: Upper-alpha;
+    color: white;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    position: absolute;
+    top: 450px;
+    left: 980px;
+    cursor: pointer;
+}
+
+body {
+    height: 788px;
+    background: black;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 36%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    z-index: -3;
+
+}
+body > #bg1 {
+    height: 740px;
+    width: 100%;
+    background-color: whitesmoke;
+    clip-path: polygon(0 0, 0% 90%, 100% 31%);
+    position: absolute;
+    z-index: -2;
+}
+body > #bg2 {
+    height: 740px;
+    width: 100%;
+    background-color: rgb(2, 211, 240);
+    clip-path: polygon(0 0, 0% 90%, 89% 30%);
+    position: absolute;
+    z-index: -1;
+}
