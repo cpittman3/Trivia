@@ -20,6 +20,7 @@ h2{ color: yellow;
 #olAnswer{
     margin: 0;
     padding: 0;
+    font-family: "Times New Roman";
     list-style-type: Upper-alpha;
     color: white;
     font-size: 30px;
@@ -28,6 +29,22 @@ h2{ color: yellow;
     top: 450px;
     left: 980px;
     cursor: pointer;
+}
+
+#answerA:hover{
+    color: aqua;
+}
+
+#answerB:hover{
+    color: aqua;
+}
+
+#answerC:hover{
+    color: aqua;
+}
+
+#answerD:hover{
+    color: aqua;
 }
 
 body {

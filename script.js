@@ -7,8 +7,8 @@ window.onload = function () {
 }
 
 // Global Vars
-let currentCategory = 11;
-let currentQuestion = 11;
+let currentCategory = 1;
+let currentQuestion = 1;
 const A = 1, B = 2, C = 3, D = 4, answer = 5;
 
 // CATEGORY ARRAY
@@ -106,15 +106,13 @@ question[12, D] = "Judge Dredd";
 question[12, answer] = C;
 
 function initPage2 () {
-    console.log("initPage2 is working")
     let categoryHtml = createCategoryH1 ();
     let questionHtml = createQuestionBtn ();
     let categoryRef = document.getElementById("categoryH1");
     let questionRef = document.getElementById("questionBtns");
-    console.log(categoryHtml);
     categoryRef.insertAdjacentHTML("beforebegin",categoryHtml);
     questionRef.insertAdjacentHTML("afterend", questionHtml);
-
+    console.log(currentQuestion);
 }
 
 function createCategoryH1 () {
