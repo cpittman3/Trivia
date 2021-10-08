@@ -1,8 +1,22 @@
 window.onload = function () {
-    let currentCategory = 1;
-    let currentQuestion = 1;
     categoryArray();
 }
+
+/* const trivia = [
+*  { question:  "Who was the singer for Genesis in 1968?",
+*    answerA:   "Rob Halford",
+*    answerB:   "Phil Collins",
+*    answerC:   "John Fogerty",
+*    answerD:   "Peter Gabriel",
+*    answer:    B
+*   },
+*   { question: "On which Eagles’ album is the song\n" + "‘Take it to the Limit’?",
+*     answerA:  "Desperado",
+*     answerB:  "Hotel California",
+*     answerC:  "One of These Nights",
+*     answerD:  "The Long Road"
+*    }
+* */
 
 // Global Vars
 let currentCategory = 1;
@@ -33,7 +47,7 @@ function questionArray() {
     question[2, 0] = "On which Eagles’ album is the song\n" + "‘Take it to the Limit’?";
     question[2, A] = "Desperado";
     question[2, B] = "Hotel California";
-    question[2, C] = "One of These Nights ";
+    question[2, C] = "One of These Nights";
     question[2, D] = "The Long Road";
     question[2, answer] = C;
 // MUSIC question 3
