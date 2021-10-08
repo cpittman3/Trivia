@@ -1,2 +1,2 @@
-# Trivia
+# trivia
 Test Project
