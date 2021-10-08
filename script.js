@@ -8,13 +8,16 @@ window.onload = function () {
 *    answerB:   "Phil Collins",
 *    answerC:   "John Fogerty",
 *    answerD:   "Peter Gabriel",
-*    answer:    B
+*    answer:    B,
+*    category:  "MUSIC"
 *   },
 *   { question: "On which Eagles’ album is the song\n" + "‘Take it to the Limit’?",
 *     answerA:  "Desperado",
 *     answerB:  "Hotel California",
 *     answerC:  "One of These Nights",
-*     answerD:  "The Long Road"
+*     answerD:  "The Long Road",
+*     answer:   C,
+*     category: "MUSIC"
 *    }
 * */
 
